@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{% if page.title %} {{ page.title }} | {% endif %} Andy Hamilton </title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans|Raleway' rel='stylesheet'>
+	<link rel="stylesheet" href='/css/application.css'>
+</head>
+<body>
+	<div class="container">
+	</div>
+	
+	<div id="main">
+		<article>
+			<header>
+				<h1>{{page.title }}</h1>
+			</header>
+			<section class="content">
+				{{content}}
+			</section>
+		</article>
+		<footer>
+			<p>&copy; Andy Hamilton 2013</p>
+		</footer>
+	</div>
+</body>
+</html>
